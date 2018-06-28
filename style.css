@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.display-4 {
+    font-family: 'Permanent Marker', cursive;
+    padding-bottom: 20px;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("images/atl-sky.jpg");
+    opacity: 0.5;
+
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    background-color: transparent;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dropsearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+
+
+
