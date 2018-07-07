@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Buckhead</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet'/>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Rock+Salt" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  
+  
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid" id="header">
+        <div class="container">
+          <h1 class="display-4">Buckhead</h1>
+        </div>
+    
+       <div class="container">                      
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" class="btn" data-toggle="dropdown"> Neighborhoods <i class="glyphicon glyphicon-map-marker"></i>
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="../West%20Midtown/index.html">West Midtown</a></li>
+                <li><a href="../Buckhead/index.html">Buckhead</a></li>
+                <li><a href="../Virginia%20Highland/index.html">Virginia Highlands</a></li>
+              </ul>
+            </div>
+            </div>
+            </div>
+    </div>
+    <div class="container2">
+        <div class="images"></div>
+        
+
+        <div class="bg", id='map'></div>
+
+    <div class="border rounded m-1 p-1">
+        <div class="table-body">
+          <center><table class="table table-bordered" id="mainTable">
+                <p><h3><i class="glyphicon glyphicon-stats"></i> Demographics</h3> </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <tr>
+                <th> Population </th>
+                <th> White </th>
+                <th> Black </th>
+                <th> Asian </th>
+                <th> Hispanic </th>
+                <th> Other </th>
+            </tr>   
+          </table>
+          </center>
+        </div>
+        <hr>
+        <center><div class="form-group">
+            <label for="comment">Tell Us What You Think About This Area!</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+            <br>
+            <button type="submit" class="btn btn-default" id="submit">Submit</button>
+            </div></center>
+        </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

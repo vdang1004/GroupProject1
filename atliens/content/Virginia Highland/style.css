@@ -1,0 +1,106 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding:0;
+}
+
+.display-4 {
+    font-family: 'Rock Salt', cursive;
+    padding-bottom: 20px;
+
+}
+
+body { margin:0; padding:0; }
+    #map { position:relative; top:0; bottom:0; width:850px; height:450px; padding:0; opacity: 0.95; }
+
+.bg {
+    /* The image used */
+
+    opacity: 0.5;
+
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#header {
+    background-color: transparent;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding-left: 50px;
+}
+
+
+.dropdown {
+    background-color: white;
+    box-align: center;
+
+}
+li {
+    background-color: white;
+}
+
+
+
+#mainTable {
+    position: relative;
+    padding: 20px 20px;
+    background-color: white;
+    width: 80%;
+    align-content: center;
+
+}
+
+.images{
+    width: 850px;
+    height: 450px;
+    background: url(images/vh1.jpg);
+    margin: 10px auto;
+    animation: slide 25s infinite;
+}
+@keyframes slide{
+25%{
+    background: url(images/vh1.jpg);
+}
+
+50%{
+    background: url(images/vh2.jpg);
+}
+
+75%{
+    background: url(images/vh3.jpg);
+}
+
+100%{
+    background: url(images/vh4.jpg);
+}
+
+}
+
+#comment {
+    width: 850px;
+    height:200px;
+}
+
+#submit {
+    position: bottom-right;
+}
